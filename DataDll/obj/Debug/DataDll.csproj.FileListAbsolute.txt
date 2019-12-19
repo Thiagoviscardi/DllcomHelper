@@ -1,0 +1,11 @@
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\bin\Debug\DataDll.dll.config
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\bin\Debug\DataDll.dll
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\bin\Debug\DataDll.pdb
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\bin\Debug\EntityFramework.dll
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\bin\Debug\EntityFramework.xml
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\obj\Debug\DataDll.csprojAssemblyReference.cache
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\obj\Debug\DataDll.csproj.CopyComplete
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\obj\Debug\DataDll.dll
+C:\Users\thiago.viscardi\source\repos\DataDll\DataDll\obj\Debug\DataDll.pdb
