@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDll", "DataDll\DataDll.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolucaoWeb", "SolucaoWeb\SolucaoWeb.csproj", "{8ADD62E9-7E10-4BA2-B56B-9E593BA7EEEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes", "Testes\Testes.csproj", "{136B6B60-271A-4A56-AD12-F1E7825EBDC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8ADD62E9-7E10-4BA2-B56B-9E593BA7EEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ADD62E9-7E10-4BA2-B56B-9E593BA7EEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ADD62E9-7E10-4BA2-B56B-9E593BA7EEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136B6B60-271A-4A56-AD12-F1E7825EBDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136B6B60-271A-4A56-AD12-F1E7825EBDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136B6B60-271A-4A56-AD12-F1E7825EBDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136B6B60-271A-4A56-AD12-F1E7825EBDC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

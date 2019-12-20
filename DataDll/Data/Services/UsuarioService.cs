@@ -9,6 +9,7 @@ namespace DataDll.Data.Services
     public class UsuarioService
     {
         private Model.TreinamentoThiagoEntities _db = new Model.TreinamentoThiagoEntities();
+        //////////////////////////////////////SALVA USUARIO///////////////////////////////////////
 
         public Entidades.UsuarioEntidade Salvar(Entidades.UsuarioEntidade usuario)
         {
@@ -36,8 +37,9 @@ namespace DataDll.Data.Services
             
             return usuario;
         }
+        //////////////////////////////////////DELETA UM USUARIO///////////////////////////////////////
 
-         public bool Deletar(int id)
+        public bool Deletar(int id)
         {
             var usuarioDB = (from n in _db.Usuarios where n.Id == id select n).SingleOrDefault();// aqui faz o select para achar o usuario do id que queremos
             if (usuarioDB != null)
@@ -48,6 +50,7 @@ namespace DataDll.Data.Services
             }
             return false;
         }
+        //////////////////////////////////////LISTA TODOS USUARIOS///////////////////////////////////////
 
         public List<Data.Entidades.UsuarioEntidade> listarTodos()
         {
@@ -65,7 +68,7 @@ namespace DataDll.Data.Services
                 lista.Add(usuario);
             }
             return lista;
-        }
+        }//////////////////////////////////////BUSCA USUARIO UNICO///////////////////////////////////////
         public Entidades.UsuarioEntidade carregarUsuario(int id)
         {
             List<Entidades.UsuarioEntidade> lista = new List<Entidades.UsuarioEntidade>();
