@@ -42,11 +42,23 @@ namespace SolucaoWeb.Controllers
             return JsonRetorno;
         }
 
+        //////////////////////////////////////LISTA TODOS USUARIOS///////////////////////////////////////
+
         public Helper.JsonRetorno listaTodosController()// tenho que pegar a resposta do front aqui no parametro
         {
             Helper.JsonRetorno jsonRetorno = new Helper.JsonRetorno();
             DataDll.Data.Services.UsuarioService usuarioService = new DataDll.Data.Services.UsuarioService();
             var retorno = usuarioService.listarTodos();
+            jsonRetorno.Data = retorno;
+            return jsonRetorno;
+        }
+        //////////////////////////////////////CARREGA UM USUARIO///////////////////////////////////////
+
+        public Helper.JsonRetorno carregaUsuarioController(int id)
+        {
+            Helper.JsonRetorno jsonRetorno = new Helper.JsonRetorno();
+            DataDll.Data.Services.UsuarioService usuarioService = new DataDll.Data.Services.UsuarioService();
+            var retorno = usuarioService.carregarUsuario(id);
             jsonRetorno.Data = retorno;
             return jsonRetorno;
         }
